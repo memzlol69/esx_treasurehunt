@@ -39,7 +39,7 @@ SvConfig.functions = {
     end,
 
     -- Reward system
-    GiveReward = function(source)
+    handleReward = function(source)
         -- Modify to adjust rewards appropriately
     end
 }
@@ -85,9 +85,9 @@ The resource includes basic security measures:
 - State management
 
 However, you should:
-2. Add logging (GiveReward)
-3. Configure rate limiting based on your server's needs
-4. Add proper cleanup for disconnected players
+1. Adjust/add logging (handleReward)
+2. Configure rate limiting based on your server's needs
+3. Add proper cleanup for disconnected players
 
 ## Support
 
